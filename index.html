@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Program Language Selector</title>
+</head>
+
+<body>
+<div class="container">
+    <p>Coding is a great skill to have. let's find out which language is best for you!</p>
+    <form id="test">
+      <h3>What is your favorite day?</h3>
+      <select class="form-control" id="favoriteDay">
+        <option>Choose a day.</option>
+        <option value="1">Monday</option>
+        <option value="2">Tuesday</option>
+        <option value="3">Wednesday</option>
+        <option value="4">Thursday</option>
+        <option value="5">Friday</option>
+        <option value="6">Saturday</option>
+        <option value="7">Sunday</option>
+      </select>
+
+      <h3>What operating system do you use?</h3>
+      <select class="form-control" id="operating">
+        <option>Choose a operating system.</option>
+        <option value="1">Windows</option>
+        <option value="2">MacOS</option>
+        <option value="3">Linux</option>
+      </select>
+      <h3>What difficulty do you like in video games?</h3>
+      <select class="form-control" id="games">
+        <option>Choose a difficulty.</option>
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+      </select>
+
+      <h3>Choose your favorite car manufacturer?</h3>
+      <select class="form-control" id="car">
+        <option>Choose a manufacturer.</option>
+        <option value="1">Subaru</option>
+        <option value="2">Audi</option>
+        <option value="3">BMW</option>
+      </select>
+      <h3>How do you get to work/school?</h3>
+      <select class="form-control" id="transportation">
+        <option>Choose a transportation.</option>
+        <option value="1">Walk/Run</option>
+        <option value="2">Car</option>
+        <option value="3">Bus/Train</option>
+        <option value="4">Bike</option>
+      </select><br>
+      <button type="submit" id="quiz" onlcick="getAnswer()">Get results!</button>
+    </form>
+  </div>
+  <div id="answers">
+    <div class="javascript">
+      <p>got JavaScript</p>
+    </div>
+    <div class="python">
+      <p>got python</p>
+    </div>
+    <div class="csharp">
+      <p>got csharp</p>
+    </div>
+  </div>
+  <!-- extra </div> here. deleting it at the moment -->
+
+
+</body>
+
+</html>

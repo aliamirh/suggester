@@ -1,0 +1,20 @@
+
+
+img{
+  height:100px;
+  width: 100px;
+  float: left;
+  padding: 10px;
+}
+.javascript{
+  display: none;
+}
+.python{
+  display: none;
+}
+.csharp{
+  display: none;
+}
+strong{
+  color: blue;
+}
